@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nmap Scan Results</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
+    <div class="container mx-auto p-4">
+        <div class="bg-white shadow-md rounded-lg p-6 max-w-3xl mx-auto">
+            <h1 class="text-2xl font-bold mb-4 text-gray-800">Nmap Scan Report</h1>
+            <p class="text-gray-600 mb-2">Host: 192.168.0.114 (Host is up, 0.00059s latency)</p>
+            <p class="text-gray-600 mb-4">Scanned at: 2025-05-26 12:49 +0530</p>
+            <p class="text-gray-600 mb-4">Not shown: 991 closed TCP ports (reset)</p>
+            
+            <h2 class="text-xl font-semibold mb-2 text-gray-800">Open Ports</h2>
+            <table class="w-full table-auto border-collapse">
+                <thead>
+                    <tr class="bg-gray-200">
+                        <th class="px-4 py-2 text-left text-gray-700">Port</th>
+                        <th class="px-4 py-2 text-left text-gray-700">State</th>
+                        <th class="px-4 py-2 text-left text-gray-700">Service</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">135/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">msrpc</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">139/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">netbios-ssn</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">445/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">microsoft-ds</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">902/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">iss-realsecure</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">912/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">apex-mesh</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">1521/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">oracle</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">3306/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">mysql</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">5432/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">postgresql</td>
+                    </tr>
+                    <tr class="border-b">
+                        <td class="px-4 py-2">55555/tcp</td>
+                        <td class="px-4 py-2">open</td>
+                        <td class="px-4 py-2">unknown</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="text-gray-600 mt-4">Nmap done: 1 IP address (1 host up) scanned in 0.95 seconds</p>
+        </div>
+    </div>
+</body>
+</html>
